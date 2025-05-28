@@ -449,73 +449,200 @@
 
 
 .photog-page {
-  background-color: #f6eee1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+background-color: #f6eee1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
 }
-
-.photog-page .main-section-wrapper {
-  background-color: #f6eee1;
-  overflow: hidden;
-  width: 1440px;
-  height: 1165.5px;
+.photog-page .div {
+background-color: #f6eee1;
+width: 1440px;
+height: 1165.5px;
+position: relative;
 }
-
 .photog-page .main-section {
-  position: relative;
-  width: 1441px;
-  height: 1077px;
-  top: 77px;
+position: absolute;
+width: 314px;
+height: 68px;
+top: 77px;
+left: 562px;
 }
-
-.photog-page .overlap-group {
-  position: relative;
-  width: 1440px;
-  height: 1077px;
-}
-
-.photog-page .photog-showcase {
-  position: absolute;
-  width: 1440px;
-  height: 1047px;
-  top: 30px;
-  left: 0;
-}
-
 .photog-page .heading {
-  position: absolute;
-  width: 318px;
-  height: 68px;
-  top: 0;
-  left: 562px;
+position: relative;
+width: 318px;
+height: 68px;
 }
-
 .photog-page .subtitle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: var(--color-gray-2);
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.0px;
-  white-space: nowrap;
+position: absolute;
+top: 0;
+left: 0;
+font-family: "Poppins-SemiBold", Helvetica;
+font-weight: 600;
+color: var(--color-gray-2);
+font-size: 16px;
+text-align: center;
+letter-spacing: 0;
+line-height: 24.0px;
+white-space: nowrap;
 }
-
 .photog-page .main-title {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  font-family: "Poppins-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--color-gray-1);
-  font-size: 32px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  white-space: nowrap;
+position: absolute;
+top: 30px;
+left: 30px;
+font-family: "Poppins-Bold", Helvetica;
+font-weight: 700;
+color: var(--color-gray-1);
+font-size: 32px;
+text-align: center;
+letter-spacing: 0;
+line-height: 38.4px;
+white-space: nowrap;
+}
+.photog-page .photo {
+position: absolute;
+width: 219px;
+height: 292px;
+top: 138px;
+left: 0;
+object-fit: cover;
+}
+.photog-page .img {
+/* Additional styling for images if any */
+}
+.photog-page .photo-2 {
+position: absolute;
+width: 351px;
+height: 263px;
+top: 167px;
+left: 234px;
+object-fit: cover;
+}
+.photog-page .photo-3 {
+position: absolute;
+width: 274px;
+height: 205px;
+top: 443px;
+left: 312px;
+object-fit: cover;
+}
+.photog-page .photo-4 {
+position: absolute;
+width: 234px;
+height: 313px;
+top: 214px;
+left: 601px;
+object-fit: cover;
+}
+.photog-page .photo-5 {
+position: absolute;
+width: 249px;
+height: 186px;
+top: 169px;
+left: 847px;
+object-fit: cover;
+}
+.photog-page .photo-6 {
+position: absolute;
+width: 234px;
+height: 175px;
+top: 539px;
+left: 601px;
+object-fit: cover;
+}
+.photog-page .photo-7 {
+position: absolute;
+width: 227px;
+height: 309px;
+top: 603px;
+left: 1213px;
+object-fit: cover;
+}
+.photog-page .photo-8 {
+position: absolute;
+width: 287px;
+height: 215px;
+top: 372px;
+left: 1153px;
+object-fit: cover;
+}
+.photog-page .photo-9 {
+position: absolute;
+width: 331px;
+height: 248px;
+top: 107px;
+left: 1108px;
+object-fit: cover;
+}
+.photog-page .photo-10 {
+position: absolute;
+width: 289px;
+height: 216px;
+top: 371px;
+left: 847px;
+object-fit: cover;
+}
+.photog-page .photo-11 {
+position: absolute;
+width: 251px;
+height: 188px;
+top: 661px;
+left: 334px;
+object-fit: cover;
+}
+.photog-page .photo-12 {
+position: absolute;
+width: 312px;
+height: 233px;
+top: 921px;
+left: 0;
+object-fit: cover;
+}
+.photog-page .photo-13 {
+position: absolute;
+width: 312px;
+height: 232px;
+top: 674px;
+left: 0;
+object-fit: cover;
+}
+.photog-page .photo-14 {
+position: absolute;
+width: 251px;
+height: 251px;
+top: 866px;
+left: 334px;
+object-fit: cover;
+}
+.photog-page .photo-15 {
+position: absolute;
+width: 350px;
+height: 261px;
+top: 603px;
+left: 849px;
+object-fit: cover;
+}
+.photog-page .photo-16 {
+position: absolute;
+width: 233px;
+height: 311px;
+top: 726px;
+left: 601px;
+object-fit: cover;
+}
+.photog-page .photo-17 {
+position: absolute;
+width: 350px;
+height: 232px;
+top: 876px;
+left: 847px;
+object-fit: cover;
+}
+.photog-page .photo-18 {
+position: absolute;
+width: 226px;
+height: 169px;
+top: 926px;
+left: 1213px;
+object-fit: cover;
 }
