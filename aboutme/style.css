@@ -448,153 +448,74 @@
 
 
 
-  .photog-page {
-    background-color: #f6eee1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .photog-page .main-section-wrapper {
-    background-color: #f6eee1;
-    width: 1440px;
-    height: 777px;
-  }
-  
-  .photog-page .main-section {
-    position: relative;
-    height: 624px;
-    top: 77px;
-  }
-  
-  .photog-page .overlap-group {
-    position: relative;
-    width: 1440px;
-    height: 624px;
-  }
-  
-  .photog-page .photog-showcase {
-    position: absolute;
-    width: 1440px;
-    height: 577px;
-    top: 47px;
-    left: 0;
-  }
-  
-  .photog-page .photo {
-    position: absolute;
-    width: 219px;
-    height: 306px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .photog-page .img {
-    position: absolute;
-    width: 361px;
-    height: 250px;
-    top: 56px;
-    left: 232px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-2 {
-    position: absolute;
-    width: 236px;
-    height: 314px;
-    top: 125px;
-    left: 606px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-3 {
-    position: absolute;
-    width: 275px;
-    height: 194px;
-    top: 319px;
-    left: 318px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-4 {
-    position: absolute;
-    width: 142px;
-    height: 194px;
-    top: 371px;
-    left: 855px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-5 {
-    position: absolute;
-    width: 207px;
-    height: 157px;
-    top: 371px;
-    left: 1010px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-6 {
-    position: absolute;
-    width: 232px;
-    height: 279px;
-    top: 79px;
-    left: 855px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-7 {
-    position: absolute;
-    width: 340px;
-    height: 347px;
-    top: 11px;
-    left: 1100px;
-    object-fit: cover;
-  }
-  
-  .photog-page .photo-8 {
-    position: absolute;
-    width: 305px;
-    height: 259px;
-    top: 319px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .photog-page .heading {
-    position: absolute;
-    width: 318px;
-    height: 68px;
-    top: 0;
-    left: 562px;
-  }
-  
-  .photog-page .subtitle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--color-gray-2);
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24.0px;
-    white-space: nowrap;
-  }
-  
-  .photog-page .main-title {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-family: "Poppins-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--color-gray-1);
-    font-size: 32px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 38.4px;
-    white-space: nowrap;
-  }
+.photog-page {
+  background-color: #f6eee1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.photog-page .main-section-wrapper {
+  background-color: #f6eee1;
+  overflow: hidden;
+  width: 1440px;
+  height: 1165.5px;
+}
+
+.photog-page .main-section {
+  position: relative;
+  width: 1441px;
+  height: 1077px;
+  top: 77px;
+}
+
+.photog-page .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 1077px;
+}
+
+.photog-page .photog-showcase {
+  position: absolute;
+  width: 1440px;
+  height: 1047px;
+  top: 30px;
+  left: 0;
+}
+
+.photog-page .heading {
+  position: absolute;
+  width: 318px;
+  height: 68px;
+  top: 0;
+  left: 562px;
+}
+
+.photog-page .subtitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--color-gray-2);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.0px;
+  white-space: nowrap;
+}
+
+.photog-page .main-title {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--color-gray-1);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  white-space: nowrap;
+}
