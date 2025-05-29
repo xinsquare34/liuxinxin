@@ -827,6 +827,574 @@
 
 
 
+.service {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.service .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2414px;
+  position: relative;
+}
+
+.service .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 2117px;
+  top: 753px;
+  left: 0;
+}
+
+.service .rec {
+  position: absolute;
+  width: 1440px;
+  height: 922px;
+  top: 0;
+  left: 0;
+}
+
+.service .img {
+  position: absolute;
+  width: 1440px;
+  height: 916px;
+  top: 724px;
+  left: 0;
+}
+
+.service .banner {
+  position: absolute;
+  width: 1200px;
+  height: 839px;
+  top: 908px;
+  left: 139px;
+}
+
+.service .overlap-group {
+  position: relative;
+  height: 839px;
+}
+
+.service .text {
+  position: absolute;
+  width: 879px;
+  height: 637px;
+  top: 15px;
+  left: 0;
+}
+
+.service .overlap-2 {
+  position: absolute;
+  width: 879px;
+  height: 409px;
+  top: 0;
+  left: 0;
+}
+
+.service .group {
+  position: absolute;
+  width: 879px;
+  height: 219px;
+  top: 0;
+  left: 0;
+}
+
+.service .overlap-group-2 {
+  position: relative;
+  width: 877px;
+  height: 219px;
+}
+
+.service .rectangle {
+  position: absolute;
+  width: 818px;
+  height: 98px;
+  top: 14px;
+  left: 1px;
+  background-color: #f6eee1;
+  transform: rotate(-2.01deg);
+}
+
+.service .text-wrapper {
+  width: 860px;
+  top: 12px;
+  font-family: "Poppins-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 102.7px;
+  position: absolute;
+  left: 17px;
+}
+
+.service .p {
+  width: 535px;
+  top: 206px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #231300;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  line-height: 25px;
+  position: absolute;
+  left: 17px;
+}
+
+.service .frame {
+  display: flex;
+  width: 369px;
+  height: 66px;
+  gap: 7.83px;
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service .text-wrapper-2 {
+  position: relative;
+  width: 321.08px;
+  height: 28.71px;
+  margin-top: -0.87px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.40px;
+  line-height: 39.2px;
+  white-space: nowrap;
+}
+
+.service .text-wrapper-3 {
+  position: relative;
+  width: 368.06px;
+  height: 28.71px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 14px;
+}
+
+.service .overlap-wrapper {
+  position: absolute;
+  width: 201px;
+  height: 72px;
+  top: 565px;
+  left: 17px;
+}
+
+.service .div-wrapper {
+  position: relative;
+  width: 199px;
+  height: 72px;
+  background-color: #000000;
+  border-radius: 6.09px;
+}
+
+.service .text-wrapper-4 {
+  position: absolute;
+  width: 122px;
+  top: 20px;
+  left: 38px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20.9px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.service .star {
+  position: absolute;
+  width: 563px;
+  height: 469px;
+  top: 88px;
+  left: 637px;
+}
+
+.service .recycling {
+  position: absolute;
+  width: 381px;
+  height: 337px;
+  top: 0;
+  left: 814px;
+}
+
+.service .overlap-3 {
+  position: relative;
+  width: 373px;
+  height: 337px;
+}
+
+.service .ellipse {
+  top: 0;
+  left: 71px;
+  background-color: #30d8b9;
+  border-radius: 115.09px;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  opacity: 0.5;
+}
+
+.service .ellipse-2 {
+  top: 107px;
+  left: 0;
+  background-color: #f88080;
+  border-radius: 114.88px / 115.09px;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  opacity: 0.5;
+}
+
+.service .ellipse-3 {
+  top: 107px;
+  left: 143px;
+  background-color: #a131eb;
+  border-radius: 114.88px / 115.09px;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  opacity: 0.5;
+}
+
+.service .text-wrapper-5 {
+  position: absolute;
+  width: 136px;
+  top: 69px;
+  left: 119px;
+  font-family: "PP Neue Montreal Mono-Book", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 15.1px;
+  text-align: center;
+  letter-spacing: -0.30px;
+  line-height: 20.0px;
+}
+
+.service .text-wrapper-6 {
+  position: absolute;
+  width: 136px;
+  top: 233px;
+  left: 11px;
+  font-family: "PP Neue Montreal Mono-Book", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 15.1px;
+  text-align: center;
+  letter-spacing: -0.30px;
+  line-height: 20.0px;
+}
+
+.service .text-wrapper-7 {
+  position: absolute;
+  width: 136px;
+  top: 233px;
+  left: 223px;
+  font-family: "PP Neue Montreal Mono-Book", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 15.1px;
+  text-align: center;
+  letter-spacing: -0.30px;
+  line-height: 20.0px;
+}
+
+.service .text-wrapper-8 {
+  position: absolute;
+  width: 136px;
+  top: 173px;
+  left: 118px;
+  font-family: "PP Neue Montreal Mono-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20.9px;
+  text-align: center;
+  letter-spacing: -0.42px;
+  line-height: 27.6px;
+}
+
+.service .overlap-group-wrapper {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: 231px;
+  left: 524px;
+  transform: rotate(-13.93deg);
+}
+
+.service .overlap-4 {
+  position: relative;
+  width: 786px;
+  height: 723px;
+  top: -129px;
+  left: -108px;
+}
+
+.service .screen {
+  position: absolute;
+  width: 297px;
+  height: 452px;
+  top: 167px;
+  left: 243px;
+  transform: rotate(13.93deg);
+}
+
+.service .vecteezy-woman-hand {
+  position: absolute;
+  width: 666px;
+  height: 580px;
+  top: 72px;
+  left: 60px;
+  transform: rotate(13.93deg);
+  object-fit: cover;
+}
+
+.service .banner-2 {
+  position: absolute;
+  width: 1304px;
+  height: 1940px;
+  top: 177px;
+  left: 35px;
+}
+
+.service .text-2 {
+  position: absolute;
+  width: 476px;
+  height: 496px;
+  top: 0;
+  left: 830px;
+}
+
+.service .overlap-5 {
+  position: absolute;
+  width: 474px;
+  height: 396px;
+  top: 0;
+  left: 0;
+}
+
+.service .group-2 {
+  position: absolute;
+  width: 465px;
+  height: 218px;
+  top: 0;
+  left: 0;
+}
+
+.service .overlap-group-3 {
+  position: relative;
+  width: 463px;
+  height: 218px;
+}
+
+.service .rectangle-2 {
+  position: absolute;
+  width: 460px;
+  height: 98px;
+  top: 8px;
+  left: 2px;
+  background-color: #ffffff;
+  transform: rotate(-2.01deg);
+}
+
+.service .text-wrapper-9 {
+  position: absolute;
+  width: 444px;
+  top: 11px;
+  left: 17px;
+  font-family: "Poppins-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 83.5px;
+  letter-spacing: 0;
+  line-height: 102.7px;
+}
+
+.service .text-wrapper-10 {
+  position: absolute;
+  width: 457px;
+  top: 193px;
+  left: 17px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #231300;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  line-height: 25px;
+}
+
+.service .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 421px;
+  height: 66px;
+  align-items: flex-start;
+  gap: 7.83px;
+  position: absolute;
+  top: 123px;
+  left: 17px;
+}
+
+.service .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  height: 28px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 14px;
+}
+
+.service .group-3 {
+  position: absolute;
+  width: 201px;
+  height: 72px;
+  top: 424px;
+  left: 17px;
+}
+
+.service .star-2 {
+  position: absolute;
+  width: 563px;
+  height: 13px;
+  top: 1471px;
+  left: 77px;
+}
+
+.service .inventro {
+  position: absolute;
+  width: 801px;
+  height: 339px;
+  top: 73px;
+  left: 0;
+  object-fit: cover;
+}
+
+.service .main-section {
+  position: absolute;
+  width: 169px;
+  height: 38px;
+  top: 211px;
+  left: 219px;
+}
+
+.service .heading {
+  position: relative;
+  width: 171px;
+  height: 38px;
+}
+
+.service .main-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--color-gray-1);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  white-space: nowrap;
+}
+
+.service .vouchers {
+  position: absolute;
+  width: 1011px;
+  height: 452px;
+  top: 276px;
+  left: 215px;
+}
+
+.service .product-intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 493px;
+  height: 216px;
+  align-items: flex-start;
+  gap: 44.31px;
+  padding: 0px 0px 42px;
+  position: absolute;
+  top: 82px;
+  left: 0;
+}
+
+.service .frame-3 {
+  display: inline-flex;
+  gap: 27.95px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -87.95px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service .text-wrapper-12 {
+  position: relative;
+  width: 489px;
+  margin-top: -0.68px;
+  font-family: "Poppins-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 2.16px;
+  line-height: 54px;
+}
+
+.service .text-wrapper-13 {
+  position: relative;
+  width: 400px;
+  height: 72px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #7c7c7c;
+  font-size: 16.4px;
+  letter-spacing: -0.65px;
+  line-height: 23.9px;
+}
+
+.service .service-photo-wrapper {
+  position: absolute;
+  width: 457px;
+  height: 452px;
+  top: 0;
+  left: 554px;
+  background-image: url(./img/circles.svg);
+  background-size: 100% 100%;
+}
+
+.service .service-photo {
+  position: absolute;
+  width: 415px;
+  height: 415px;
+  top: 5px;
+  left: 34px;
+}
+
+.service .get-in-touch-logo {
+  position: absolute;
+  width: 121px;
+  height: 42px;
+  top: 142px;
+  left: 1105px;
+}
+
+
+
 .photog-page {
 background-color: #f6eee1;
 display: flex;
