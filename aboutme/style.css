@@ -846,7 +846,7 @@
 .service .overlap {
   position: absolute;
   width: 1440px;
-  height: 2117px;
+  height: 1747px;
   top: 753px;
   left: 0;
 }
@@ -1164,7 +1164,7 @@
 .service .banner-2 {
   position: absolute;
   width: 1304px;
-  height: 1940px;
+  height: 496px;
   top: 177px;
   left: 35px;
 }
@@ -1267,19 +1267,27 @@
   left: 17px;
 }
 
+.service .overlap-6 {
+  position: absolute;
+  width: 801px;
+  height: 469px;
+  top: 1px;
+  left: 0;
+}
+
 .service .star-2 {
   position: absolute;
   width: 563px;
-  height: 13px;
-  top: 560px;
-  left: 77px;
+  height: 469px;
+  top: 0;
+  left: 104px;
 }
 
 .service .inventro {
   position: absolute;
   width: 801px;
   height: 339px;
-  top: 73px;
+  top: 72px;
   left: 0;
   object-fit: cover;
 }
@@ -1367,22 +1375,12 @@
   line-height: 23.9px;
 }
 
-.service .service-photo-wrapper {
+.service .service-photo {
   position: absolute;
   width: 457px;
   height: 452px;
   top: 0;
   left: 554px;
-  background-image: url(./img/circles.svg);
-  background-size: 100% 100%;
-}
-
-.service .service-photo {
-  position: absolute;
-  width: 415px;
-  height: 415px;
-  top: 5px;
-  left: 34px;
 }
 
 .service .back-logo {
