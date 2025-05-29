@@ -706,125 +706,135 @@
 
 
 
+
 .my-work-page {
-    background-color: #f4f6f5;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .my-work-page .main-section-wrapper {
-    background-color: #f4f6f5;
-    width: 1440px;
-    height: 840px;
-  }
-  
-  .my-work-page .main-section {
-    position: relative;
-    width: 984px;
-    height: 566px;
-    top: 106px;
-    left: 231px;
-  }
-  
-  .my-work-page .text-wrapper {
-    position: absolute;
-    top: 536px;
-    left: 352px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 19.8px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .my-work-page .leading-to-service {
-    position: absolute;
-    width: 315px;
-    height: 397px;
-    top: 115px;
-    left: 0;
-  }
-  
-  .my-work-page .div {
-    position: absolute;
-    top: 536px;
-    left: 83px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 19.8px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .my-work-page .leading-to-product {
-    position: absolute;
-    width: 315px;
-    height: 397px;
-    top: 115px;
-    left: 331px;
-  }
-  
-  .my-work-page .leading-to {
-    position: absolute;
-    width: 315px;
-    height: 397px;
-    top: 115px;
-    left: 663px;
-  }
-  
-  .my-work-page .text-wrapper-2 {
-    position: absolute;
-    top: 536px;
-    left: 754px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 19.8px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .my-work-page .heading {
-    position: absolute;
-    width: 553px;
-    height: 63px;
-    top: 0;
-    left: 214px;
-  }
-  
-  .my-work-page .main-heading {
-    position: absolute;
-    top: 0;
-    left: 77px;
-    font-family: "Poppins-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--font-color);
-    font-size: 26.4px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .my-work-page .sub-heading {
-    position: absolute;
-    width: 549px;
-    top: 40px;
-    left: 0;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--font-color1);
-    font-size: 16.5px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  .my-work-page .back-logo {
+  background-color: #f4f6f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-work-page .overlap-group-wrapper {
+  background-color: #f4f6f5;
+  width: 1440px;
+  height: 820px;
+}
+
+.my-work-page .overlap-group {
+  position: relative;
+  width: 984px;
+  height: 566px;
+  top: 106px;
+  left: 231px;
+}
+
+.my-work-page .main-section {
+  width: 984px;
+  height: 566px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.my-work-page .text-wrapper {
+  position: absolute;
+  top: 536px;
+  left: 352px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--font-color);
+  font-size: 19.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-work-page .leading-to-service {
+  position: absolute;
+  width: 315px;
+  height: 397px;
+  top: 115px;
+  left: 0;
+}
+
+.my-work-page .div {
+  position: absolute;
+  top: 536px;
+  left: 83px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--font-color);
+  font-size: 19.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-work-page .leading-to-product {
+  position: absolute;
+  width: 315px;
+  height: 397px;
+  top: 115px;
+  left: 331px;
+}
+
+.my-work-page .text-wrapper-2 {
+  position: absolute;
+  top: 536px;
+  left: 754px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--font-color);
+  font-size: 19.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-work-page .leading-to {
+  position: absolute;
+  width: 315px;
+  height: 397px;
+  top: 115px;
+  left: 663px;
+}
+
+.my-work-page .heading {
+  position: absolute;
+  width: 553px;
+  height: 72px;
+  top: 0;
+  left: 214px;
+}
+
+.my-work-page .main-heading {
+  left: 77px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--font-color);
+  font-size: 26.4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.my-work-page .sub-heading {
+  position: absolute;
+  width: 549px;
+  top: 48px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-color1);
+  font-size: 16.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-work-page .back-logo {
   position: absolute;
   width: 121px;
   height: 42px;
