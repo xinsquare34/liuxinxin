@@ -31,7 +31,7 @@
                   inheritance experiments, this project engages users in uncovering the science behind blood types. By
                   combining physical setups that mimic real scientific experiments with interactive digital interfaces,
                   users can observe simulated antigen-antibody reactions to identify and understand blood types. The
-                  experience is further enriched by the “Genotype Machine,” which lets users decode inheritance patterns
+                  experience is further enriched by the "Genotype Machine," which lets users decode inheritance patterns
                   through playful, interactive gestures. Designed for home learning and blood donation drives, the Blood
                   Type Decoder bridges education and entertainment, making the essential knowledge of blood types both
                   accessible and impactful through tangible interaction.
@@ -129,8 +129,33 @@
           </div>
           <div class="product-photo"><img class="product-photo-2" src="img/product-photo.png" /></div>
         </div>
-        <img class="back-logo" src="img/back-logo.png" />
+        <!-- 为返回按钮添加id以便选择 -->
+        <img id="backButton" class="back-logo" src="img/back-logo.png" />
       </div>
     </div>
+
+    <script>
+      // 等待DOM完全加载
+      document.addEventListener('DOMContentLoaded', function() {
+        // 获取返回按钮
+        const backButton = document.getElementById('backButton');
+        
+        // 添加点击事件
+        backButton.addEventListener('click', function() {
+          // 返回到works.html页面
+          window.location.href = 'works.html';
+        });
+        
+        // 添加鼠标悬停效果
+        backButton.style.cursor = 'pointer';
+        backButton.style.transition = 'opacity 0.3s ease';
+        backButton.addEventListener('mouseenter', function() {
+          this.style.opacity = '0.7';
+        });
+        backButton.addEventListener('mouseleave', function() {
+          this.style.opacity = '1';
+        });
+      });
+    </script>
   </body>
 </html>
