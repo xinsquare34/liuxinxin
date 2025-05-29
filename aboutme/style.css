@@ -508,7 +508,12 @@ left: 0;
 object-fit: cover;
 }
 .photog-page .img {
-/* Additional styling for images if any */
+position: absolute;
+width: 292px;
+height: 218px;
+top: 443px;
+left: 0;
+object-fit: cover;
 }
 .photog-page .photo-2 {
 position: absolute;
@@ -610,7 +615,7 @@ object-fit: cover;
 position: absolute;
 width: 251px;
 height: 251px;
-top: 874px;
+top: 866px;
 left: 334px;
 object-fit: cover;
 }
