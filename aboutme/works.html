@@ -3,8 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <title>XINXIN</title>
-    <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
@@ -14,7 +12,7 @@
       <div class="main-section-wrapper">
         <div class="main-section">
           <div class="text-wrapper product-link">Product/Interactive Design</div>
-          <img class="leading-to-service" src="img/leading-to-service-page.png" />
+          <img class="leading-to-service service-link" src="img/leading-to-service-page.png" />
           <div class="div service-link">Service Design</div>
           <img class="leading-to-product product-link" src="img/leading-to-product-page.png" />
           <img class="leading-to photography-link" src="img/leading-to-photography-page.png" />
@@ -30,29 +28,6 @@
     <script>
       // 等待DOM完全加载
       document.addEventListener('DOMContentLoaded', function() {
-        // 摄影链接功能
-        const photographyLinks = document.querySelectorAll('.photography-link');
-        photographyLinks.forEach(function(link) {
-          setupLink(link, 'photog.html');
-        });
-
-        // 服务设计链接功能
-        const serviceLinks = document.querySelectorAll('.service-link');
-        serviceLinks.forEach(function(link) {
-          setupLink(link, 'service.html');
-        });
-
-        // 产品/交互设计链接功能
-        const productLinks = document.querySelectorAll('.product-link');
-        productLinks.forEach(function(link) {
-          setupLink(link, 'product.html');
-        });
-
-        // 为服务设计图片添加点击事件（没有类名的图片）
-        document.querySelector('.leading-to-service').addEventListener('click', function() {
-          window.location.href = 'service.html';
-        });
-
         // 通用链接设置函数
         function setupLink(element, targetUrl) {
           element.addEventListener('click', function() {
@@ -69,6 +44,21 @@
             this.style.opacity = '1';
           });
         }
+
+        // 摄影链接功能
+        document.querySelectorAll('.photography-link').forEach(function(link) {
+          setupLink(link, 'photog.html');
+        });
+
+        // 服务设计链接功能（文本和图片）
+        document.querySelectorAll('.service-link').forEach(function(link) {
+          setupLink(link, 'service.html');
+        });
+
+        // 产品/交互设计链接功能（文本和图片）
+        document.querySelectorAll('.product-link').forEach(function(link) {
+          setupLink(link, 'product.html');
+        });
       });
     </script>
   </body>
