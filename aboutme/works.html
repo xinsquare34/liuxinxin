@@ -13,15 +13,15 @@
     <div class="my-work-page">
       <div class="main-section-wrapper">
         <div class="main-section">
-          <div class="text-wrapper">Product/Interactive Design</div>
+          <div class="text-wrapper product-link">Product/Interactive Design</div>
           <img class="leading-to-service" src="img/leading-to-service-page.png" />
-          <div class="div">Service Design</div>
-          <img class="leading-to-product" src="img/leading-to-product-page.png" />
+          <div class="div service-link">Service Design</div>
+          <img class="leading-to-product product-link" src="img/leading-to-product-page.png" />
           <img class="leading-to photography-link" src="img/leading-to-photography-page.png" />
           <div class="text-wrapper-2 photography-link">Photography</div>
           <div class="heading">
             <p class="main-heading">What I Have Done So Far!</p>
-            <p class="sub-heading">My creative practice spans across these three mediums.</p>
+            <p class="sub-heading">My creative practice spans across service these three mediums.</p>
           </div>
         </div>
       </div>
@@ -30,27 +30,45 @@
     <script>
       // 等待DOM完全加载
       document.addEventListener('DOMContentLoaded', function() {
-        // 获取所有摄影相关链接元素
+        // 摄影链接功能
         const photographyLinks = document.querySelectorAll('.photography-link');
-        
-        // 为每个链接添加点击事件
         photographyLinks.forEach(function(link) {
-          // 添加点击事件监听器
-          link.addEventListener('click', function() {
-            // 跳转到摄影页面
-            window.location.href = 'photog.html';
+          setupLink(link, 'photog.html');
+        });
+
+        // 服务设计链接功能
+        const serviceLinks = document.querySelectorAll('.service-link');
+        serviceLinks.forEach(function(link) {
+          setupLink(link, 'service.html');
+        });
+
+        // 产品/交互设计链接功能
+        const productLinks = document.querySelectorAll('.product-link');
+        productLinks.forEach(function(link) {
+          setupLink(link, 'product.html');
+        });
+
+        // 为服务设计图片添加点击事件（没有类名的图片）
+        document.querySelector('.leading-to-service').addEventListener('click', function() {
+          window.location.href = 'service.html';
+        });
+
+        // 通用链接设置函数
+        function setupLink(element, targetUrl) {
+          element.addEventListener('click', function() {
+            window.location.href = targetUrl;
           });
           
           // 添加鼠标悬停效果
-          link.style.cursor = 'pointer';
-          link.style.transition = 'opacity 0.3s ease';
-          link.addEventListener('mouseenter', function() {
+          element.style.cursor = 'pointer';
+          element.style.transition = 'opacity 0.3s ease';
+          element.addEventListener('mouseenter', function() {
             this.style.opacity = '0.7';
           });
-          link.addEventListener('mouseleave', function() {
+          element.addEventListener('mouseleave', function() {
             this.style.opacity = '1';
           });
-        });
+        }
       });
     </script>
   </body>
