@@ -115,8 +115,33 @@
           </div>
           <img class="service-photo" src="img/service-photo.png" />
         </div>
-        <img class="back-logo" src="img/back-logo.png" />
+        <!-- 为返回按钮添加id以便选择 -->
+        <img id="backButton" class="back-logo" src="img/back-logo.png" />
       </div>
     </div>
+
+    <script>
+      // 等待DOM完全加载
+      document.addEventListener('DOMContentLoaded', function() {
+        // 获取返回按钮
+        const backButton = document.getElementById('backButton');
+        
+        // 添加点击事件
+        backButton.addEventListener('click', function() {
+          // 返回到work.html页面
+          window.location.href = 'work.html';
+        });
+        
+        // 添加鼠标悬停效果
+        backButton.style.cursor = 'pointer';
+        backButton.style.transition = 'opacity 0.3s ease';
+        backButton.addEventListener('mouseenter', function() {
+          this.style.opacity = '0.7';
+        });
+        backButton.addEventListener('mouseleave', function() {
+          this.style.opacity = '1';
+        });
+      });
+    </script>
   </body>
 </html>
