@@ -19,9 +19,9 @@
               <div class="div">
                 <div class="greeting-box"></div>
                 <div class="greeting-box-2"></div>
-                <div class="hey-there-i-m-xinxin">Hey<br />there,<br />I’m Xinxin!</div>
+                <div class="hey-there-i-m-xinxin">Hey<br />there,<br />I'm Xinxin!</div>
                 <p class="text-wrapper">
-                  A curious and hands-on designer with a background in Industrial Design and Cultural Studies. I’m drawn
+                  A curious and hands-on designer with a background in Industrial Design and Cultural Studies. I'm drawn
                   to ideas that blend the physical and digital, and I enjoy exploring how thoughtful design can create
                   playful, meaningful experiences.
                 </p>
@@ -39,7 +39,7 @@
                 <div class="text-wrapper-2">Portfolio</div>
               </div>
               <div class="sub-frame">
-                <div class="div-wrapper"><div class="text-wrapper-3">My Works</div></div>
+                <div class="div-wrapper"><div class="text-wrapper-3 my-works-button">My Works</div></div>
                 <img class="get-in-touch-logo" src="img/get-in-touch-logo.png" />
               </div>
             </div>
@@ -125,26 +125,27 @@
         </div>
       </div>
     </div>
-  </body>
 
     <script>
       // 等待DOM完全加载
       document.addEventListener('DOMContentLoaded', function() {
         // 获取"My Works"按钮元素
-        const myWorksBtn = document.querySelector('.my-works-btn');
+        const myWorksButton = document.querySelector('.my-works-button');
         
         // 添加点击事件监听器
-        myWorksBtn.addEventListener('click', function() {
-          // 跳转到作品页面 - 你需要替换为实际的作品页面URL
-          window.location.href = 'works.html'; // 或者你想要的任何URL
+        myWorksButton.addEventListener('click', function() {
+          // 在这里指定要跳转的页面URL
+          // 例如跳转到works.html页面
+          window.location.href = 'works.html';
         });
         
         // 可选：添加鼠标悬停效果
-        myWorksBtn.style.cursor = 'pointer';
-        myWorksBtn.addEventListener('mouseenter', function() {
-          this.style.opacity = '0.7';
+        myWorksButton.addEventListener('mouseenter', function() {
+          this.style.cursor = 'pointer';
+          this.style.opacity = '0.8';
         });
-        myWorksBtn.addEventListener('mouseleave', function() {
+        
+        myWorksButton.addEventListener('mouseleave', function() {
           this.style.opacity = '1';
         });
       });
